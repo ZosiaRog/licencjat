@@ -14,5 +14,12 @@ git status
 git add praca.tex pracamgr.cls
 git status
 git commit -m "komentarz"
+git commit -a -m "komentarz"     # dodanie wszystkich zmienionych plikow
+git pull
 git push
 ```
+
+##
+Linki i materiały:
+
+1. https://github.com/marekrogala/thesis
