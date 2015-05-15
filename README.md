@@ -1,8 +1,13 @@
 # licencjat
 
-## Obsługa GITa
+## Instalacja
 ```
 sudo apt-get install git
+sudo apt-get install texlive-full texlive-lang-polish texstudio
+```
+
+## Obsługa GITa
+```
 git clone https://github.com/ZosiaRog/licencjat.git
 pdflatex praca.tex
 git status
