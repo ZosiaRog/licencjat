@@ -19,7 +19,6 @@ git pull
 git push
 ```
 
-##
-Linki i materiały:
+## Linki i materiały:
 
 1. https://github.com/marekrogala/thesis
