@@ -1,41 +1,28 @@
-%
-% Niniejszy plik stanowi przyk³ad formatowania pracy magisterskiej na
-% Wydziale MIM UW.  Szkielet u¿ytych poleceñ mo¿na wykorzystywaæ do
-% woli, np. formatujac wlasna prace.
-%
-% Zawartosc merytoryczna stanowi oryginalnosiagniecie
-% naukowosciowe Marcina Wolinskiego.  Wszelkie prawa zastrze¿one.
-%
-% Copyright (c) 2001 by Marcin Woliñski <M.Wolinski@gust.org.pl>
-% Poprawki spowodowane zmianami przepisów - Marcin Szczuka, 1.10.2004
-% Poprawki spowodowane zmianami przepisow i ujednolicenie 
-% - Seweryn Kar³owicz, 05.05.2006
-% dodaj opcjê [licencjacka] dla pracy licencjackiej
-\documentclass{pracamgr}
+\documentclass[licencjacka]{pracamgr}
 
 \usepackage{polski}
 
-%Jesli uzywasz kodowania polskich znakow ISO-8859-2 nastepna linia powinna byc 
-%odkomentowana
 \usepackage[latin2]{inputenc}
-%Jesli uzywasz kodowania polskich znakow CP-1250 to ta linia powinna byc 
-%odkomentowana
-%\usepackage[cp1250]{inputenc}
 
-% Dane magistranta:
 
-\author{Robert Blarbarucki}
 
-\nralbumu{666999}
+\usepackage{lmodern}
+\usepackage{color}
 
-\title{Implementacja blabalizatora ró¿nicowego z~wykorzystaniem teorii
-  fetorów $\sigma$-$\rho$}
 
-\tytulang{An implementation of a difference blabalizer based on the theory 
-  of $\sigma$ -- $\rho$ phetors}
 
-%kierunek: Matematyka, Informatyka, ...
-\kierunek{Informatyka}
+
+
+
+\author{Zofia Joanna Rogala}
+
+\nralbumu{332474}
+
+\title{Losowe równania ró¿nicowe i perpetuity}
+
+\tytulang{Random differential equations and perpetuits}
+
+\kierunek{Matematyka}
 
 % informatyka - nie okreslamy zakresu (opcja zakomentowana)
 % matematyka - zakres moze pozostac nieokreslony,
@@ -55,18 +42,18 @@
 % (podaæ tytu³/stopieñ imiê i nazwisko opiekuna
 % Instytut
 % ew. Wydzia³ ew. Uczelnia (je¿eli nie MIM UW))
-\opiekun{dra hab. Filigrana Fifaka\\
-  Instytut Blabalii Fetorycznej\\
+\opiekun{dra hab. Witold Bednorz\\
+  Instytut ???\\
   }
 
 % miesi±c i~rok:
-\date{Maj 2006}
+\date{Czerwiec 2015}
 
 %Podaæ dziedzinê wg klasyfikacji Socrates-Erasmus:
 \dziedzina{ 
 %11.0 Matematyka, Informatyka:\\ 
-%11.1 Matematyka\\ 
-11.2 Statystyka\\ 
+11.1 Matematyka\\ 
+%11.2 Statystyka\\ 
 %11.3 Informatyka\\ 
 %11.4 Sztuczna inteligencja\\ 
 %11.5 Nauki aktuarialne\\
@@ -84,6 +71,7 @@
 
 % Tu jest dobre miejsce na Twoje w³asne makra i~¶rodowiska:
 \newtheorem{defi}{Definicja}[section]
+\newcommand{\todo}[1]{\textcolor{red}{\fbox{TODO} #1}}
 
 % koniec definicji
 
@@ -106,6 +94,8 @@
 
 \chapter*{Wprowadzenie}
 \addcontentsline{toc}{chapter}{Wprowadzenie}
+
+\todo{ siema }
 
 Blabalizator ró¿nicowy jest podstawowym narzêdziem blabalii
 fetorycznej.  Dlatego naukowcy z~ca³ego ¶wiata prze¶cigaj± siê
@@ -379,7 +369,7 @@ utajnieniu.
     $\gamma_{12}$ & 1,331 & 13,01 & 13,42 & 0,01 \\
     $\gamma_{13}$ & 1,334 & 789,01 & 13,42 & 0,01 \\
     $\gamma_{14}$ & 1,331 & 4897453,01 & 13,42 & 0,01 \\
-    $\gamma_{15}$ & 1,329 & 783591,01 & 13,42 & 0,01 \\
+    $\gamma_{15}$ & 1,329 & 783332432423fgfjf91,01 & 13,42 & 0,01 \\
   \end{tabular}
 \end{center}
 
